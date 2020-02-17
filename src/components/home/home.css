@@ -1,0 +1,138 @@
+.hero {
+  background: url("../../../public/images/B&W_bg.jpg");
+  background-size:cover;
+  background-position: bottom;
+ }
+
+ .hero-body {
+  /* padding-left: 3em;
+  padding-right: 3em; */
+  box-sizing: border-box;
+  margin: 0em !important;
+ }
+
+ .text{
+   color:white;
+ }
+
+ .card-content {
+   padding: 0.5rem;
+ }
+
+ .section {
+   min-height: 150px;
+   padding: 0rem !important;
+ }
+
+@media screen and (min-width: 769px), print {
+  .title {
+    font-size: 2.5rem; } }
+
+@media screen and (min-width: 1000px) {
+  .title {
+    font-size: 4rem;
+  } 
+}
+
+h2 {
+  margin: 1.5rem 0 2rem 0 !important; }
+
+fa-cog {
+  font-size: 40px; 
+}
+
+@media screen and (min-width: 1000px) {
+  #learn {
+    margin-bottom: 2rem; } }
+
+@media screen and (min-width: 769px), print {
+  .pd {
+    padding: 2rem 0; } }
+
+.row.pd {
+  flex-wrap: wrap; 
+  position: absolute;
+    top: -4rem;
+    width: 100%;
+}
+
+.color-patch {
+  color: white;
+  margin: 0em;
+  height: 150px;
+  font-size: 24px;
+}
+
+.card-one {
+  background-color: #35D3B4; 
+}
+
+.card-two {
+  background-color: #1B2191; 
+}
+
+.card-three {
+  background-color: #D822EE; 
+}
+
+.card-four {
+  background-color: #067bad;
+}
+
+.d-xs-only {
+  display: none;
+}
+
+@media screen and (min-width: 400px) and (max-width: 1024px) {
+  .row.pd {
+    position: initial;
+    margin: 0em;
+  }
+
+  .hero-body > img {
+    position: relative;
+    top: 6rem;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .hero-container {
+    min-width: 100% !important;
+  }
+
+  .row.pd {
+    position: initial;
+    margin: 0em;
+  }
+
+  .section {
+    padding: 2rem 0em !important;
+    padding-top: 4rem !important;
+  }
+
+  .hero-body > img {
+    position: relative;
+    top: 6rem;
+  }
+  .card {
+    border: none;
+    box-shadow: none;
+    margin-bottom: 1rem;
+  }
+  .color-patch {
+    border-radius: 10px;
+    height: 50px;
+  }
+
+  .color-patch > .d-xs-none {
+    display: none;
+  }
+  .card-content {
+    padding: 0rem;
+  }
+
+  .d-xs-only {
+    display: block;
+    width: 100%;
+  }
+}

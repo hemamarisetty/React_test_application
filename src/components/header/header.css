@@ -1,0 +1,43 @@
+.navbar {
+  background-color: #cc0033; 
+}
+
+.navbar-mini {
+  background-color: #a00028;
+  height: 40px;
+}
+
+.navbar-brand {
+  min-height: 40px;
+  width: 150px;
+  background-color: #303030;
+  border-radius: 2px;
+}
+
+.search-wrapper {
+  background-color: #a00028;
+  border-radius: 2px;
+}
+
+.search {
+  background-color: transparent !important;
+  border: none !important;
+  width: 400px !important;
+  color: white !important;
+  outline: none !important;
+}
+
+.search-icon {
+  height: 30px;
+  margin: 0.25em;
+}
+
+@media screen and (max-width: 400px) {
+  .navbar-brand {
+    width: 40px !important;
+    margin-right: 0em !important;
+  }
+  .search {
+    width: 250px !important;
+  }
+}

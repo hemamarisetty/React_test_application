@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container .footer-text{
+  margin:20px 0;
+  background-color: blue;
+}
